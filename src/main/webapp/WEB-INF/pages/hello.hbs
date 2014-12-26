@@ -1,19 +1,11 @@
-<!doctype html>
-<html>
-<body>
-{{#partial "header"}}
-HEADER
+
+{{#partial "content"}}
+내용입니다.
 {{/partial}}
 
-{{#partial "footer"}}
-Footer
+{{#partial "username"}}
+    <span>Header : 하욱주님 환영합니다.</span>
 {{/partial}}
 
-{{> header}}
 
-<h1>{{hello}}</h1>
-
-{{> footer}}
-
-</body>
-</html>
+{{>layout}}
